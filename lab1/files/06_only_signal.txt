@@ -1,0 +1,474 @@
+123816 rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x70db3840a300, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=0x70db3840a500, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+123816 rt_sigaction(SIGTERM, {sa_handler=0x70db3840a500, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+123816 rt_sigaction(SIGWINCH, {sa_handler=0x70db384001e0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGHUP, {sa_handler=0x604b3219b3b0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTERM, {sa_handler=0x604b3219b3b0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGWINCH, {sa_handler=0x604b321976b0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGCONT, {sa_handler=0x604b321997c0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGSEGV, {sa_handler=0x604b3219b3e0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGABRT, {sa_handler=0x604b3219b3e0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigprocmask(SIG_BLOCK, [WINCH], NULL, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=0x604b321976a0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigprocmask(SIG_UNBLOCK, [WINCH], NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=0x604b321976a0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigprocmask(SIG_BLOCK, [WINCH], NULL, 8) = 0
+123816 rt_sigprocmask(SIG_UNBLOCK, [WINCH], NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 --- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+123816 rt_sigreturn({mask=[]})          = -1 EINTR (Interrupted system call)
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 --- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+123816 rt_sigreturn({mask=[]})          = -1 EINTR (Interrupted system call)
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigprocmask(SIG_BLOCK, [WINCH], NULL, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=0x604b321976a0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigprocmask(SIG_UNBLOCK, [WINCH], NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigprocmask(SIG_BLOCK, [WINCH], NULL, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=0x604b321976a0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigprocmask(SIG_UNBLOCK, [WINCH], NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x70db38045330}, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, 8) = 0
+123816 rt_sigaction(SIGTSTP, {sa_handler=0x604b321996b0, sa_mask=~[KILL STOP RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x70db38045330}, NULL, 8) = 0
+123816 +++ exited with 0 +++

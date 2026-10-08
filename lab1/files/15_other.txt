@@ -1,0 +1,41 @@
+137925 arch_prctl(ARCH_SET_FS, 0x7f5799740080) = 0
+137925 set_tid_address(0x7f5799740350)  = 137925
+137925 set_robust_list(0x7f5799740360, 24) = 0
+137925 rseq(0x7f57997409a0, 0x20, 0, 0x53053053) = 0
+137925 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+137925 getrandom("\x26\xbc\x4b\x31\x75\xed\x34\xc1", 8, GRND_NONBLOCK) = 8
+137925 futex(0x7f579960572c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+137925 getuid()                         = 1000
+137925 geteuid()                        = 1000
+137925 getgid()                         = 1000
+137925 getegid()                        = 1000
+137925 getuid()                         = 1000
+137925 geteuid()                        = 1000
+137925 getgid()                         = 1000
+137925 getegid()                        = 1000
+137925 getuid()                         = 1000
+137925 setfsuid(1000)                   = 1000
+137925 getgid()                         = 1000
+137925 setfsgid(1000)                   = 1000
+137925 geteuid()                        = 1000
+137925 setfsuid(1000)                   = 1000
+137925 getegid()                        = 1000
+137925 setfsgid(1000)                   = 1000
+137925 geteuid()                        = 1000
+137925 getpid()                         = 137925
+137925 geteuid()                        = 1000
+137925 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+137925 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+137925 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+137925 connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+137925 uname({sysname="Linux", nodename="ECHIPSComputer", ...}) = 0
+137925 getpid()                         = 137925
+137925 geteuid()                        = 1000
+137925 uname({sysname="Linux", nodename="ECHIPSComputer", ...}) = 0
+137925 getpid()                         = 137925
+137925 geteuid()                        = 1000
+137925 uname({sysname="Linux", nodename="ECHIPSComputer", ...}) = 0
+137925 getpid()                         = 137925
+137925 geteuid()                        = 1000
+137925 uname({sysname="Linux", nodename="ECHIPSComputer", ...}) = 0
+137925 +++ exited with 0 +++

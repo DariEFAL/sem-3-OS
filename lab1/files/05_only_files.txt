@@ -1,0 +1,280 @@
+123313 execve("/usr/bin/nano", ["nano", "./files/00_test.txt"], 0x7ffe02f29da0 /* 31 vars */) = 0
+123313 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+123313 newfstatat(AT_FDCWD, "/home/ar/.terminfo", 0x62c4c0c2fb50, 0) = -1 ENOENT (No such file or directory)
+123313 newfstatat(AT_FDCWD, "/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "/lib/terminfo", 0x62c4c0c2fbe0, 0) = -1 ENOENT (No such file or directory)
+123313 newfstatat(AT_FDCWD, "/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+123313 access("/etc/terminfo/x/xterm-256color", R_OK) = -1 ENOENT (No such file or directory)
+123313 access("/usr/share/terminfo/x/xterm-256color", R_OK) = 0
+123313 openat(AT_FDCWD, "/usr/share/terminfo/x/xterm-256color", O_RDONLY) = 3
+123313 access("/etc/nanorc", R_OK)      = 0
+123313 newfstatat(AT_FDCWD, "/etc/nanorc", {st_mode=S_IFREG|0644, st_size=11424, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/etc/nanorc", O_RDONLY) = 3
+123313 openat(AT_FDCWD, "/usr/share/nano", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+123313 access("/usr/share/nano/asm.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/asm.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/asm.nanorc", {st_mode=S_IFREG|0644, st_size=714, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/asm.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/autoconf.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/autoconf.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/autoconf.nanorc", {st_mode=S_IFREG|0644, st_size=635, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/autoconf.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/awk.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/awk.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/awk.nanorc", {st_mode=S_IFREG|0644, st_size=1339, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/awk.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/c.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/c.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/c.nanorc", {st_mode=S_IFREG|0644, st_size=1926, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/c.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/changelog.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/changelog.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/changelog.nanorc", {st_mode=S_IFREG|0644, st_size=790, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/changelog.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/cmake.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/cmake.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/cmake.nanorc", {st_mode=S_IFREG|0644, st_size=824, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/cmake.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/css.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/css.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/css.nanorc", {st_mode=S_IFREG|0644, st_size=485, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/css.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/debian.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/debian.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/debian.nanorc", {st_mode=S_IFREG|0644, st_size=801, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/debian.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/default.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/default.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/default.nanorc", {st_mode=S_IFREG|0644, st_size=775, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/default.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/elisp.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/elisp.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/elisp.nanorc", {st_mode=S_IFREG|0644, st_size=1108, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/elisp.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/email.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/email.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/email.nanorc", {st_mode=S_IFREG|0644, st_size=340, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/email.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/go.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/go.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/go.nanorc", {st_mode=S_IFREG|0644, st_size=1446, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/go.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/groff.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/groff.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/groff.nanorc", {st_mode=S_IFREG|0644, st_size=742, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/groff.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/guile.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/guile.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/guile.nanorc", {st_mode=S_IFREG|0644, st_size=562, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/guile.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/haskell.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/haskell.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/haskell.nanorc", {st_mode=S_IFREG|0644, st_size=1009, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/haskell.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/html.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/html.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/html.nanorc", {st_mode=S_IFREG|0644, st_size=1286, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/html.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/java.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/java.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/java.nanorc", {st_mode=S_IFREG|0644, st_size=654, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/java.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/javascript.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/javascript.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/javascript.nanorc", {st_mode=S_IFREG|0644, st_size=822, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/javascript.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/json.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/json.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/json.nanorc", {st_mode=S_IFREG|0644, st_size=805, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/json.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/lua.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/lua.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/lua.nanorc", {st_mode=S_IFREG|0644, st_size=2461, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/lua.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/makefile.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/makefile.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/makefile.nanorc", {st_mode=S_IFREG|0644, st_size=536, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/makefile.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/man.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/man.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/man.nanorc", {st_mode=S_IFREG|0644, st_size=717, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/man.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/markdown.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/markdown.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/markdown.nanorc", {st_mode=S_IFREG|0644, st_size=947, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/markdown.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/nanohelp.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/nanohelp.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/nanohelp.nanorc", {st_mode=S_IFREG|0644, st_size=594, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/nanohelp.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/nanorc.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/nanorc.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/nanorc.nanorc", {st_mode=S_IFREG|0644, st_size=4325, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/nanorc.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/nftables.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/nftables.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/nftables.nanorc", {st_mode=S_IFREG|0644, st_size=927, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/nftables.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/objc.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/objc.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/objc.nanorc", {st_mode=S_IFREG|0644, st_size=1487, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/objc.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/ocaml.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/ocaml.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/ocaml.nanorc", {st_mode=S_IFREG|0644, st_size=831, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/ocaml.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/patch.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/patch.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/patch.nanorc", {st_mode=S_IFREG|0644, st_size=600, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/patch.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/perl.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/perl.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/perl.nanorc", {st_mode=S_IFREG|0644, st_size=2119, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/perl.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/php.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/php.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/php.nanorc", {st_mode=S_IFREG|0644, st_size=1081, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/php.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/po.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/po.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/po.nanorc", {st_mode=S_IFREG|0644, st_size=1181, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/po.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/python.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/python.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/python.nanorc", {st_mode=S_IFREG|0644, st_size=1406, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/python.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/ruby.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/ruby.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/ruby.nanorc", {st_mode=S_IFREG|0644, st_size=1343, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/ruby.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/rust.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/rust.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/rust.nanorc", {st_mode=S_IFREG|0644, st_size=1036, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/rust.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/sh.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/sh.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/sh.nanorc", {st_mode=S_IFREG|0644, st_size=1527, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/sh.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/sql.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/sql.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/sql.nanorc", {st_mode=S_IFREG|0644, st_size=2406, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/sql.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/tcl.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/tcl.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/tcl.nanorc", {st_mode=S_IFREG|0644, st_size=2133, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/tcl.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/tex.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/tex.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/tex.nanorc", {st_mode=S_IFREG|0644, st_size=199, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/tex.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/texinfo.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/texinfo.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/texinfo.nanorc", {st_mode=S_IFREG|0644, st_size=834, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/texinfo.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/xml.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/xml.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/xml.nanorc", {st_mode=S_IFREG|0644, st_size=686, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/xml.nanorc", O_RDONLY) = 4
+123313 access("/usr/share/nano/yaml.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/yaml.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/yaml.nanorc", {st_mode=S_IFREG|0644, st_size=1368, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/yaml.nanorc", O_RDONLY) = 4
+123313 access("/home/ar/.nanorc", R_OK) = -1 ENOENT (No such file or directory)
+123313 access("/home/ar/.config/nano/nanorc", R_OK) = -1 ENOENT (No such file or directory)
+123313 newfstatat(AT_FDCWD, "/home/ar/.nano/", 0x7ffe07d21e80, 0) = -1 ENOENT (No such file or directory)
+123313 newfstatat(AT_FDCWD, "/home/ar/.local/share/nano/", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/home/ar/.local/share/nano/search_history", O_RDONLY) = 3
+123313 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "./files", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+123313 access("./files", X_OK)          = 0
+123313 access("./files", W_OK)          = 0
+123313 newfstatat(AT_FDCWD, "./files/.00_test.txt.swp", 0x7ffe07d21b80, 0) = -1 ENOENT (No such file or directory)
+123313 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=526, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+123313 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+123313 unlink("./files/.00_test.txt.swp") = -1 ENOENT (No such file or directory)
+123313 openat(AT_FDCWD, "./files/.00_test.txt.swp", O_WRONLY|O_CREAT|O_EXCL, 0666) = 3
+123313 getcwd("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1", 1024) = 48
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files", 0x7ffe07d215e0, 1023) = -1 EINVAL (Invalid argument)
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", 0x7ffe07d215e0, 1023) = -1 EINVAL (Invalid argument)
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", O_RDONLY) = 3
+123313 access("./files/00_test.txt", W_OK) = 0
+123313 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 getcwd("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1", 1024) = 48
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files", 0x7ffe07d21710, 1023) = -1 EINVAL (Invalid argument)
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", 0x7ffe07d21710, 1023) = -1 EINVAL (Invalid argument)
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 access("/usr/share/nano/default.nanorc", R_OK) = 0
+123313 access("/usr/share/nano/default.nanorc", R_OK) = 0
+123313 newfstatat(AT_FDCWD, "/usr/share/nano/default.nanorc", {st_mode=S_IFREG|0644, st_size=775, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/usr/share/nano/default.nanorc", O_RDONLY) = 3
+123313 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=526, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+123313 unlink("./files/.00_test.txt.swp") = 0
+123313 openat(AT_FDCWD, "./files/.00_test.txt.swp", O_WRONLY|O_CREAT|O_EXCL, 0666) = 3
+123313 getcwd("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1", 1024) = 48
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files", 0x7ffe07d21640, 1023) = -1 EINVAL (Invalid argument)
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", 0x7ffe07d21640, 1023) = -1 EINVAL (Invalid argument)
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 getcwd("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1", 1024) = 48
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files", 0x7ffe07d21640, 1023) = -1 EINVAL (Invalid argument)
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", 0x7ffe07d21640, 1023) = -1 EINVAL (Invalid argument)
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 openat(AT_FDCWD, "./files/00_test.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+123313 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=526, ...}, 0) = 0
+123313 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+123313 unlink("./files/.00_test.txt.swp") = 0
+123313 openat(AT_FDCWD, "./files/.00_test.txt.swp", O_WRONLY|O_CREAT|O_EXCL, 0666) = 3
+123313 getcwd("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1", 1024) = 48
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files", 0x7ffe07d21640, 1023) = -1 EINVAL (Invalid argument)
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", 0x7ffe07d21640, 1023) = -1 EINVAL (Invalid argument)
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+123313 getcwd("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1", 1024) = 48
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files", 0x7ffe07d21640, 1023) = -1 EINVAL (Invalid argument)
+123313 readlink("/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", 0x7ffe07d21640, 1023) = -1 EINVAL (Invalid argument)
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+123313 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+123313 openat(AT_FDCWD, "./files/00_test.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+123313 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+123313 unlink("./files/.00_test.txt.swp") = 0
+123313 +++ exited with 0 +++

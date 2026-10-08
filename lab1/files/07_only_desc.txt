@@ -1,0 +1,1562 @@
+124589 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x70db70cac000
+124589 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=21183, ...}) = 0
+124589 mmap(NULL, 21183, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70ca6000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libncursesw.so.6", O_RDONLY|O_CLOEXEC) = 3
+124589 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=239848, ...}) = 0
+124589 mmap(NULL, 242112, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x70db70c6a000
+124589 mmap(0x70db70c73000, 172032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x70db70c73000
+124589 mmap(0x70db70c9d000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x33000) = 0x70db70c9d000
+124589 mmap(0x70db70ca4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x39000) = 0x70db70ca4000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+124589 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=208328, ...}) = 0
+124589 mmap(NULL, 211240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x70db70c36000
+124589 mmap(0x70db70c44000, 77824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x70db70c44000
+124589 mmap(0x70db70c57000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21000) = 0x70db70c57000
+124589 mmap(0x70db70c65000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2e000) = 0x70db70c65000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+124589 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+124589 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+124589 fstat(3, {st_mode=S_IFREG|0755, st_size=2129424, ...}) = 0
+124589 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+124589 mmap(NULL, 2174352, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x70db70a00000
+124589 mmap(0x70db70a28000, 1609728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x70db70a28000
+124589 mmap(0x70db70bb1000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b1000) = 0x70db70bb1000
+124589 mmap(0x70db70c00000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ff000) = 0x70db70c00000
+124589 mmap(0x70db70c06000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x70db70c06000
+124589 close(3)                         = 0
+124589 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x70db70c34000
+124589 ioctl(1, VBG_IOCTL_VMMDEV_REQUEST_BIG or VT_GETSTATE, 0x7ffec8c94aaa) = -1 ENOTTY (Inappropriate ioctl for device)
+124589 ioctl(0, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 fcntl(0, F_GETFL)                = 0x8402 (flags O_RDWR|O_APPEND|O_LARGEFILE)
+124589 fcntl(0, F_SETFL, O_RDWR|O_APPEND|O_LARGEFILE) = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=2996, ...}) = 0
+124589 read(3, "# Locale name alias data base.\n#"..., 4096) = 2996
+124589 read(3, "", 4096)                = 0
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=258, ...}) = 0
+124589 mmap(NULL, 258, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70cab000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=27028, ...}) = 0
+124589 mmap(NULL, 27028, PROT_READ, MAP_SHARED, 3, 0) = 0x70db70c2d000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0
+124589 mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70caa000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=47, ...}) = 0
+124589 mmap(NULL, 47, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70ca9000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=127, ...}) = 0
+124589 mmap(NULL, 127, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70ca8000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=62, ...}) = 0
+124589 mmap(NULL, 62, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70ca7000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+124589 mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70ca6000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=48, ...}) = 0
+124589 mmap(NULL, 48, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70c2c000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=270, ...}) = 0
+124589 mmap(NULL, 270, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70c2b000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=1406, ...}) = 0
+124589 mmap(NULL, 1406, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70c2a000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=3360, ...}) = 0
+124589 mmap(NULL, 3360, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70c29000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=50, ...}) = 0
+124589 mmap(NULL, 50, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db70c28000
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+124589 openat(AT_FDCWD, "/usr/lib/locale/C.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=360460, ...}) = 0
+124589 mmap(NULL, 360460, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70db709a7000
+124589 close(3)                         = 0
+124589 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/.terminfo", 0x5ea74d7ecb50, 0) = -1 ENOENT (No such file or directory)
+124589 newfstatat(AT_FDCWD, "/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/lib/terminfo", 0x5ea74d7ecbe0, 0) = -1 ENOENT (No such file or directory)
+124589 newfstatat(AT_FDCWD, "/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/terminfo/x/xterm-256color", O_RDONLY) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=4071, ...}) = 0
+124589 read(3, "\36\2%\0&\0\17\0\235\1Z\6xterm-256color|xterm"..., 32768) = 4071
+124589 read(3, "", 28672)               = 0
+124589 close(3)                         = 0
+124589 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TIOCGWINSZ, {ws_row=30, ws_col=120, ws_xpixel=0, ws_ypixel=0}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TIOCGWINSZ, {ws_row=30, ws_col=120, ws_xpixel=0, ws_ypixel=0}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCSETSW, {c_iflag=IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCSETSW, {c_iflag=IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 newfstatat(AT_FDCWD, "/etc/nanorc", {st_mode=S_IFREG|0644, st_size=11424, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/etc/nanorc", O_RDONLY) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=11424, ...}) = 0
+124589 read(3, "## Sample initialization file fo"..., 4096) = 4096
+124589 read(3, "ank\n## string means the operatin"..., 4096) = 4096
+124589 read(3, "= Syntax coloring ===\n## For all"..., 4096) = 3232
+124589 openat(AT_FDCWD, "/usr/share/nano", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+124589 fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+124589 getdents64(4, 0x5ea74d845aa0 /* 46 entries */, 32768) = 1560
+124589 getdents64(4, 0x5ea74d845aa0 /* 0 entries */, 32768) = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/asm.nanorc", {st_mode=S_IFREG|0644, st_size=714, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/asm.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=714, ...}) = 0
+124589 read(4, "## Syntax highlighting for assem"..., 4096) = 714
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/autoconf.nanorc", {st_mode=S_IFREG|0644, st_size=635, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/autoconf.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=635, ...}) = 0
+124589 read(4, "## Syntax highlighting for Autoc"..., 4096) = 635
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/awk.nanorc", {st_mode=S_IFREG|0644, st_size=1339, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/awk.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1339, ...}) = 0
+124589 read(4, "## Syntax highlighting for AWK s"..., 4096) = 1339
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/c.nanorc", {st_mode=S_IFREG|0644, st_size=1926, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/c.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1926, ...}) = 0
+124589 read(4, "## Syntax highlighting for C and"..., 4096) = 1926
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/changelog.nanorc", {st_mode=S_IFREG|0644, st_size=790, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/changelog.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=790, ...}) = 0
+124589 read(4, "## Syntax highlighting for Chang"..., 4096) = 790
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/cmake.nanorc", {st_mode=S_IFREG|0644, st_size=824, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/cmake.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=824, ...}) = 0
+124589 read(4, "## Syntax highlighting for CMake"..., 4096) = 824
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/css.nanorc", {st_mode=S_IFREG|0644, st_size=485, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/css.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=485, ...}) = 0
+124589 read(4, "## Syntax highlighting for CSS f"..., 4096) = 485
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/debian.nanorc", {st_mode=S_IFREG|0644, st_size=801, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/debian.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=801, ...}) = 0
+124589 read(4, "## Syntax highlighting for apt's"..., 4096) = 801
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/default.nanorc", {st_mode=S_IFREG|0644, st_size=775, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/default.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=775, ...}) = 0
+124589 read(4, "## This is an example of a defau"..., 4096) = 775
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/elisp.nanorc", {st_mode=S_IFREG|0644, st_size=1108, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/elisp.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1108, ...}) = 0
+124589 read(4, "## Syntax highlighting for Emacs"..., 4096) = 1108
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/email.nanorc", {st_mode=S_IFREG|0644, st_size=340, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/email.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=340, ...}) = 0
+124589 read(4, "## Syntax highlighting for email"..., 4096) = 340
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/go.nanorc", {st_mode=S_IFREG|0644, st_size=1446, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/go.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1446, ...}) = 0
+124589 read(4, "## Syntax highlighting for Go.\n\n"..., 4096) = 1446
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/groff.nanorc", {st_mode=S_IFREG|0644, st_size=742, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/groff.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=742, ...}) = 0
+124589 read(4, "## Syntax highlighting for groff"..., 4096) = 742
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/guile.nanorc", {st_mode=S_IFREG|0644, st_size=562, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/guile.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=562, ...}) = 0
+124589 read(4, "## Syntax highlighting for Guile"..., 4096) = 562
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/haskell.nanorc", {st_mode=S_IFREG|0644, st_size=1009, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/haskell.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1009, ...}) = 0
+124589 read(4, "## Syntax highlighting for Haske"..., 4096) = 1009
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/html.nanorc", {st_mode=S_IFREG|0644, st_size=1286, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/html.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1286, ...}) = 0
+124589 read(4, "## Syntax highlighting for HTML."..., 4096) = 1286
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/java.nanorc", {st_mode=S_IFREG|0644, st_size=654, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/java.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=654, ...}) = 0
+124589 read(4, "## Syntax highlighting for Java."..., 4096) = 654
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/javascript.nanorc", {st_mode=S_IFREG|0644, st_size=822, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/javascript.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=822, ...}) = 0
+124589 read(4, "## Syntax highlighting for Javas"..., 4096) = 822
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/json.nanorc", {st_mode=S_IFREG|0644, st_size=805, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/json.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=805, ...}) = 0
+124589 read(4, "## Syntax highlighting for JSON "..., 4096) = 805
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/lua.nanorc", {st_mode=S_IFREG|0644, st_size=2461, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/lua.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=2461, ...}) = 0
+124589 read(4, "## Syntax highlighting for Lua.\n"..., 4096) = 2461
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/makefile.nanorc", {st_mode=S_IFREG|0644, st_size=536, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/makefile.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=536, ...}) = 0
+124589 read(4, "## Syntax highlighting for Makef"..., 4096) = 536
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/man.nanorc", {st_mode=S_IFREG|0644, st_size=717, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/man.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=717, ...}) = 0
+124589 read(4, "## Syntax highlighting for man p"..., 4096) = 717
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/markdown.nanorc", {st_mode=S_IFREG|0644, st_size=947, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/markdown.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=947, ...}) = 0
+124589 read(4, "## Syntax highlighting for Markd"..., 4096) = 947
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/nanohelp.nanorc", {st_mode=S_IFREG|0644, st_size=594, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/nanohelp.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=594, ...}) = 0
+124589 read(4, "## This is meant for highlightin"..., 4096) = 594
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/nanorc.nanorc", {st_mode=S_IFREG|0644, st_size=4325, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/nanorc.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=4325, ...}) = 0
+124589 read(4, "## Syntax highlighting for nanor"..., 4096) = 4096
+124589 read(4, "]](start=|end=)\"\n\n# Control code"..., 4096) = 229
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/nftables.nanorc", {st_mode=S_IFREG|0644, st_size=927, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/nftables.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=927, ...}) = 0
+124589 read(4, "## Syntax highlighting for the p"..., 4096) = 927
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/objc.nanorc", {st_mode=S_IFREG|0644, st_size=1487, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/objc.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1487, ...}) = 0
+124589 read(4, "## Syntax highlighting for C/C++"..., 4096) = 1487
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/ocaml.nanorc", {st_mode=S_IFREG|0644, st_size=831, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/ocaml.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=831, ...}) = 0
+124589 read(4, "## Syntax highlighting for OCaml"..., 4096) = 831
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/patch.nanorc", {st_mode=S_IFREG|0644, st_size=600, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/patch.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=600, ...}) = 0
+124589 read(4, "## Syntax highlighting for patch"..., 4096) = 600
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/perl.nanorc", {st_mode=S_IFREG|0644, st_size=2119, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/perl.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=2119, ...}) = 0
+124589 read(4, "## Syntax highlighting for Perl."..., 4096) = 2119
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/php.nanorc", {st_mode=S_IFREG|0644, st_size=1081, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/php.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1081, ...}) = 0
+124589 read(4, "## Syntax highlighting for PHP.\n"..., 4096) = 1081
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/po.nanorc", {st_mode=S_IFREG|0644, st_size=1181, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/po.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1181, ...}) = 0
+124589 read(4, "## Syntax highlighting for PO fi"..., 4096) = 1181
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/python.nanorc", {st_mode=S_IFREG|0644, st_size=1406, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/python.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1406, ...}) = 0
+124589 read(4, "## Syntax highlighting for Pytho"..., 4096) = 1406
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/ruby.nanorc", {st_mode=S_IFREG|0644, st_size=1343, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/ruby.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1343, ...}) = 0
+124589 read(4, "## Syntax highlighting for Ruby."..., 4096) = 1343
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/rust.nanorc", {st_mode=S_IFREG|0644, st_size=1036, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/rust.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1036, ...}) = 0
+124589 read(4, "## Syntax highlighting for Rust."..., 4096) = 1036
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/sh.nanorc", {st_mode=S_IFREG|0644, st_size=1527, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/sh.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1527, ...}) = 0
+124589 read(4, "## Syntax highlighting for Bourn"..., 4096) = 1527
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/sql.nanorc", {st_mode=S_IFREG|0644, st_size=2406, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/sql.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=2406, ...}) = 0
+124589 read(4, "## Syntax highlighting for (Post"..., 4096) = 2406
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/tcl.nanorc", {st_mode=S_IFREG|0644, st_size=2133, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/tcl.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=2133, ...}) = 0
+124589 read(4, "## Syntax highlighting for Tcl a"..., 4096) = 2133
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/tex.nanorc", {st_mode=S_IFREG|0644, st_size=199, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/tex.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=199, ...}) = 0
+124589 read(4, "## Syntax highlighting for TeX f"..., 4096) = 199
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/texinfo.nanorc", {st_mode=S_IFREG|0644, st_size=834, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/texinfo.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+124589 read(4, "## Syntax highlighting for Texin"..., 4096) = 834
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/xml.nanorc", {st_mode=S_IFREG|0644, st_size=686, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/xml.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=686, ...}) = 0
+124589 read(4, "## Syntax highlighting for XML f"..., 4096) = 686
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/yaml.nanorc", {st_mode=S_IFREG|0644, st_size=1368, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/yaml.nanorc", O_RDONLY) = 4
+124589 fstat(4, {st_mode=S_IFREG|0644, st_size=1368, ...}) = 0
+124589 read(4, "## Syntax highlighting for YAML "..., 4096) = 1368
+124589 read(4, "", 4096)                = 0
+124589 close(4)                         = 0
+124589 read(3, "", 4096)                = 0
+124589 close(3)                         = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/.nano/", 0x7ffec8c94af0, 0) = -1 ENOENT (No such file or directory)
+124589 newfstatat(AT_FDCWD, "/home/ar/.local/share/nano/", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/home/ar/.local/share/nano/search_history", O_RDONLY) = 3
+124589 fstat(3, {st_mode=S_IFREG|0600, st_size=7, ...}) = 0
+124589 read(3, "M-R\n\n\n\n", 4096)     = 7
+124589 read(3, "", 4096)                = 0
+124589 close(3)                         = 0
+124589 ioctl(1, TCGETS, {c_iflag=IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCSETSW, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+124589 write(1, "\33[?2004h", 8)        = 8
+124589 write(1, "\33[?1049h\33[22;0;0t\33[1;30r\33(B\33[m\33["..., 54) = 54
+124589 write(1, "\33[?1h\33=", 7)       = 7
+124589 write(1, "\33[?25l", 6)          = 6
+124589 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "./files", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "./files/.00_test.txt.swp", 0x7ffec8c947f0, 0) = -1 ENOENT (No such file or directory)
+124589 close(3)                         = 0
+124589 close(3)                         = 0
+124589 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=526, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=526, ...}) = 0
+124589 read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 526
+124589 read(3, "", 4096)                = 0
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=526, ...}) = 0
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=1584, ...}) = 0
+124589 lseek(3, 0, SEEK_SET)            = 0
+124589 read(3, "root:x:0:0:root:/root:/bin/bash\n"..., 4096) = 1584
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "./files/.00_test.txt.swp", O_WRONLY|O_CREAT|O_EXCL, 0666) = 3
+124589 fcntl(3, F_GETFL)                = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+124589 write(3, "b0nano 7.2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\255\346\1\0ar\0\0"..., 1024) = 1024
+124589 close(3)                         = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 openat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", O_RDONLY) = 3
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 fcntl(3, F_GETFL)                = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+124589 write(1, "\33[39;49m\33(B\33[m\33[H\33[2J\33[28;54H", 29) = 29
+124589 write(1, "\33(B\33[0;7m[ Reading... ]", 23) = 23
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+124589 read(3, "", 4096)                = 0
+124589 close(3)                         = 0
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28;53H", 8)        = 8
+124589 write(1, "\33(B\33[0;7m[ Read 0 line", 22) = 22
+124589 write(1, "s ]", 3)               = 3
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/usr/share/nano/default.nanorc", {st_mode=S_IFREG|0644, st_size=775, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/usr/share/nano/default.nanorc", O_RDONLY) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=775, ...}) = 0
+124589 read(3, "## This is an example of a defau"..., 4096) = 775
+124589 read(3, "", 4096)                = 0
+124589 close(3)                         = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[H", 3)             = 3
+124589 write(1, "\33(B\33[0;7m  GNU nano 7.2         "..., 137) = 137
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[29d", 6)         = 6
+124589 write(1, "\33(B\33[0;7m^G\33(B\33[m Help\33[29;16H", 30) = 30
+124589 write(1, "\33(B\33[0;7m^O\33(B\33[m Write Out   \33("..., 89) = 89
+124589 write(1, "\33(B\33[0;7m^T\33(B\33[m Execute     \33("..., 89) = 89
+124589 write(1, "\33(B\33[0;7mM-A\33(B\33[m Set Mark\r\33[30"..., 33) = 33
+124589 write(1, "\33(B\33[0;7m^X\33(B\33[m Exit\33[30;16H", 30) = 30
+124589 write(1, "\33(B\33[0;7m^R\33(B\33[m Read File   \33("..., 88) = 88
+124589 write(1, "\33(B\33[0;7m^J\33(B\33[m Justify     \33("..., 89) = 89
+124589 write(1, "\33(B\33[0;7mM-6\33(B\33[m Copy", 23) = 23
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[2d", 5)          = 5
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "a", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[1;74H", 7)         = 7
+124589 write(1, "\33(B\33[0;7m*\33[119G", 16) = 16
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=526, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=1584, ...}) = 0
+124589 lseek(3, 0, SEEK_SET)            = 0
+124589 read(3, "root:x:0:0:root:/root:/bin/bash\n"..., 4096) = 1584
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "./files/.00_test.txt.swp", O_WRONLY|O_CREAT|O_EXCL, 0666) = 3
+124589 fcntl(3, F_GETFL)                = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+124589 write(3, "b0nano 7.2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\255\346\1\0ar\0\0"..., 1024) = 1024
+124589 close(3)                         = 0
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[2d", 5)          = 5
+124589 write(1, "a", 1)                 = 1
+124589 read(0, "\177", 1)               = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 write(1, "\33[K", 3)             = 3
+124589 read(0, "s", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "s", 1)                 = 1
+124589 read(0, "u", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "u", 1)                 = 1
+124589 read(0, "d", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "d", 1)                 = 1
+124589 read(0, "o", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "o", 1)                 = 1
+124589 read(0, " ", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, " ", 1)                 = 1
+124589 read(0, "i", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "i", 1)                 = 1
+124589 read(0, "\177", 1)               = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 write(1, " \10", 2)              = 2
+124589 read(0, "u", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "u", 1)                 = 1
+124589 read(0, "\177", 1)               = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 write(1, " \10", 2)              = 2
+124589 read(0, "a", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "a", 1)                 = 1
+124589 read(0, "p", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "p", 1)                 = 1
+124589 read(0, "\24", 1)                = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[29;16H", 8)        = 8
+124589 write(1, "         \33(B\33[0;7mM-F\33(B\33[m New "..., 166) = 166
+124589 write(1, "\33(B\33[0;7mC\33(B\33[m Cancel\33[16G", 28) = 28
+124589 write(1, "         \33(B\33[0;7mM-\\\33(B\33[m Pipe"..., 85) = 85
+124589 write(1, "\33(B\33[0;7m^O\33(B\33[m Formatter     "..., 67) = 67
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[28d", 6)         = 6
+124589 write(1, "\33(B\33[0;7mCommand to execute:    "..., 137) = 137
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\0", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\3", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28;53H", 8)        = 8
+124589 write(1, "\33[1K ", 5)           = 5
+124589 write(1, "\33(B\33[0;7m[ Cancelled ]\33(B\33[m\33[K", 31) = 31
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[29;16H", 8)        = 8
+124589 write(1, "\33(B\33[0;7m^O\33(B\33[m Write Out   \33("..., 214) = 214
+124589 write(1, "\33(B\33[0;7mX\33(B\33[m Exit  \33[16G", 28) = 28
+124589 write(1, "\33(B\33[0;7m^R\33(B\33[m Read File   \33("..., 203) = 203
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[2;8H", 6)          = 6
+124589 read(0, "t", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "t", 1)                 = 1
+124589 read(0, " ", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, " ", 1)                 = 1
+124589 read(0, "u", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "u", 1)                 = 1
+124589 read(0, "p", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "p", 1)                 = 1
+124589 read(0, "d", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "d", 1)                 = 1
+124589 read(0, "a", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "a", 1)                 = 1
+124589 read(0, "t", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "t", 1)                 = 1
+124589 read(0, "e", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "e", 1)                 = 1
+124589 read(0, "\r", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[3d", 5)          = 5
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\r", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[4d", 4)            = 4
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "[", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "2", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "0", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "0", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "~", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "s", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "u", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "d", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "o", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, " ", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "a", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "p", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "t", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, " ", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "u", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "p", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "d", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "a", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "t", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "e", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "[", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "2", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "0", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "1", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "~", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "sudo apt update\r\33[28d", 21) = 21
+124589 write(1, "\33[K\33[4;16H", 10)   = 10
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "D", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\10", 1)               = 1
+124589 read(0, "\v", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[K", 3)             = 3
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\25", 1)                = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "sudo apt update\r\33[5d", 20) = 20
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\25", 1)                = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "sudo apt update\r\33[6d", 20) = 20
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\17", 1)                = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[29;16H", 8)        = 8
+124589 write(1, "\33[15X\33[29;31H", 13) = 13
+124589 write(1, "\33(B\33[0;7mM-D\33(B\33[m DOS Format   "..., 44) = 44
+124589 write(1, "\33(B\33[0;7mM-A\33(B\33[m Append\33[16X\33["..., 38) = 38
+124589 write(1, "\33(B\33[0;7mB\33(B\33[m Backup File\33[K\33"..., 38) = 38
+124589 write(1, "\33(B\33[0;7mC\33(B\33[m Cancel\33[16G", 28) = 28
+124589 write(1, "\33[15X\33[30;31H", 13) = 13
+124589 write(1, "\33(B\33[0;7mM-M\33(B\33[m Mac Format   "..., 43) = 43
+124589 write(1, "\33(B\33[0;7mM-P\33(B\33[m Prepend\33[19X\33"..., 39) = 39
+124589 write(1, "\33(B\33[0;7m^T\33(B\33[m Browse\33[K", 27) = 27
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[28d", 6)         = 6
+124589 write(1, "\33(B\33[0;7mFile Name to Write: ./f"..., 137) = 137
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\r", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 openat(AT_FDCWD, "./files/00_test.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 fcntl(3, F_GETFL)                = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28;53H", 8)        = 8
+124589 write(1, "\33[1K ", 5)           = 5
+124589 write(1, "\33(B\33[0;7m[ Writing... ]\33(B\33[m\33[K", 32) = 32
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+124589 write(3, "sudo apt update\n\nsudo apt update"..., 49) = 49
+124589 fsync(3)                         = 0
+124589 close(3)                         = 0
+124589 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[1;74H", 7)         = 7
+124589 write(1, "\33(B\33[0;7m \33[119G", 16) = 16
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28;52H", 8)        = 8
+124589 write(1, "\33(B\33[0;7m[ Wrote 4 line", 23) = 23
+124589 write(1, "s ]", 3)               = 3
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[29;16H", 8)        = 8
+124589 write(1, "\33(B\33[0;7m^O\33(B\33[m Write Out   \33("..., 89) = 89
+124589 write(1, "\33(B\33[0;7m^T\33(B\33[m Execute     \33("..., 61) = 61
+124589 write(1, "\33(B\33[0;7mU\33(B\33[m Undo       \33(B\33"..., 62) = 62
+124589 write(1, "\33(B\33[0;7mX\33(B\33[m Exit  \33[16G", 28) = 28
+124589 write(1, "\33(B\33[0;7m^R\33(B\33[m Read File   \33("..., 88) = 88
+124589 write(1, "\33(B\33[0;7m^J\33(B\33[m Justify     \33("..., 90) = 90
+124589 write(1, "\33(B\33[0;7mM-6\33(B\33[m Copy", 23) = 23
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[6d", 5)          = 5
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[A", 3)             = 3
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[A", 3)             = 3
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[A", 3)             = 3
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[A", 3)             = 3
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 read(0, "\v", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[1;74H", 7)         = 7
+124589 write(1, "\33(B\33[0;7m*\33[119G", 16) = 16
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=526, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=1584, ...}) = 0
+124589 lseek(3, 0, SEEK_SET)            = 0
+124589 read(3, "root:x:0:0:root:/root:/bin/bash\n"..., 4096) = 1584
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "./files/.00_test.txt.swp", O_WRONLY|O_CREAT|O_EXCL, 0666) = 3
+124589 fcntl(3, F_GETFL)                = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+124589 write(3, "b0nano 7.2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\255\346\1\0ar\0\0"..., 1024) = 1024
+124589 close(3)                         = 0
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[2d", 5)          = 5
+124589 write(1, "\33[K\33[3d", 7)       = 7
+124589 write(1, "sudo apt update\r\33[5d", 20) = 20
+124589 write(1, "\33[K\33[28d", 8)      = 8
+124589 write(1, "\33[K\33[2d", 7)       = 7
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\17", 1)                = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[29;16H", 8)        = 8
+124589 write(1, "\33[15X\33[29;31H", 13) = 13
+124589 write(1, "\33(B\33[0;7mM-D\33(B\33[m DOS Format   "..., 44) = 44
+124589 write(1, "\33(B\33[0;7mM-A\33(B\33[m Append\33[16X\33["..., 38) = 38
+124589 write(1, "\33(B\33[0;7mB\33(B\33[m Backup File\33[K\33"..., 38) = 38
+124589 write(1, "\33(B\33[0;7mC\33(B\33[m Cancel\33[16G", 28) = 28
+124589 write(1, "\33[15X\33[30;31H", 13) = 13
+124589 write(1, "\33(B\33[0;7mM-M\33(B\33[m Mac Format   "..., 43) = 43
+124589 write(1, "\33(B\33[0;7mM-P\33(B\33[m Prepend\33[19X\33"..., 39) = 39
+124589 write(1, "\33(B\33[0;7m^T\33(B\33[m Browse\33[K", 27) = 27
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[28d", 6)         = 6
+124589 write(1, "\33(B\33[0;7mFile Name to Write: ./f"..., 137) = 137
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\r", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=49, ...}, 0) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 openat(AT_FDCWD, "./files/00_test.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 fcntl(3, F_GETFL)                = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28;53H", 8)        = 8
+124589 write(1, "\33[1K ", 5)           = 5
+124589 write(1, "\33(B\33[0;7m[ Writing... ]\33(B\33[m\33[K", 32) = 32
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+124589 write(3, "\nsudo apt update\nsudo apt update"..., 33) = 33
+124589 fsync(3)                         = 0
+124589 close(3)                         = 0
+124589 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=33, ...}, 0) = 0
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[1;74H", 7)         = 7
+124589 write(1, "\33(B\33[0;7m \33[119G", 16) = 16
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28;52H", 8)        = 8
+124589 write(1, "\33(B\33[0;7m[ Wrote 3 line", 23) = 23
+124589 write(1, "s ]", 3)               = 3
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[29;16H", 8)        = 8
+124589 write(1, "\33(B\33[0;7m^O\33(B\33[m Write Out   \33("..., 89) = 89
+124589 write(1, "\33(B\33[0;7m^T\33(B\33[m Execute     \33("..., 61) = 61
+124589 write(1, "\33(B\33[0;7mU\33(B\33[m Undo       \33(B\33"..., 62) = 62
+124589 write(1, "\33(B\33[0;7mX\33(B\33[m Exit  \33[16G", 28) = 28
+124589 write(1, "\33(B\33[0;7m^R\33(B\33[m Read File   \33("..., 88) = 88
+124589 write(1, "\33(B\33[0;7m^J\33(B\33[m Justify     \33("..., 90) = 90
+124589 write(1, "\33(B\33[0;7mM-6\33(B\33[m Copy", 23) = 23
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[2d", 5)          = 5
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "B", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[3d", 4)            = 4
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "B", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[4d", 4)            = 4
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "B", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[5d", 4)            = 4
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "B", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[A", 3)             = 3
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[A", 3)             = 3
+124589 read(0, "\33", 1)                = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "O", 1)                  = 1
+124589 poll([{fd=0, events=POLLIN}], 1, 50) = 1 ([{fd=0, revents=POLLIN}])
+124589 read(0, "A", 1)                  = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[A", 3)             = 3
+124589 read(0, "\v", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[1;74H", 7)         = 7
+124589 write(1, "\33(B\33[0;7m*\33[119G", 16) = 16
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=526, ...}, 0) = 0
+124589 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=1584, ...}) = 0
+124589 lseek(3, 0, SEEK_SET)            = 0
+124589 read(3, "root:x:0:0:root:/root:/bin/bash\n"..., 4096) = 1584
+124589 close(3)                         = 0
+124589 openat(AT_FDCWD, "./files/.00_test.txt.swp", O_WRONLY|O_CREAT|O_EXCL, 0666) = 3
+124589 fcntl(3, F_GETFL)                = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+124589 fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+124589 write(3, "b0nano 7.2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\255\346\1\0ar\0\0"..., 1024) = 1024
+124589 close(3)                         = 0
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[2d", 5)          = 5
+124589 write(1, "sudo apt update\r\33[4d", 20) = 20
+124589 write(1, "\33[K\33[28d", 8)      = 8
+124589 write(1, "\33[K\33[2d", 7)       = 7
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\v", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[3d", 4)            = 4
+124589 write(1, "\33[K\33[A", 6)        = 6
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\v", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[K", 3)             = 3
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\v", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28;51H", 8)        = 8
+124589 write(1, "\33(B\33[0;7m[ Nothing was cut ]", 28) = 28
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[2d", 5)          = 5
+124589 read(0, "\17", 1)                = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[29;16H", 8)        = 8
+124589 write(1, "\33[15X\33[29;31H", 13) = 13
+124589 write(1, "\33(B\33[0;7mM-D\33(B\33[m DOS Format   "..., 44) = 44
+124589 write(1, "\33(B\33[0;7mM-A\33(B\33[m Append\33[16X\33["..., 38) = 38
+124589 write(1, "\33(B\33[0;7mB\33(B\33[m Backup File\33[K\33"..., 38) = 38
+124589 write(1, "\33(B\33[0;7mC\33(B\33[m Cancel\33[16G", 28) = 28
+124589 write(1, "\33[15X\33[30;31H", 13) = 13
+124589 write(1, "\33(B\33[0;7mM-M\33(B\33[m Mac Format   "..., 43) = 43
+124589 write(1, "\33(B\33[0;7mM-P\33(B\33[m Prepend\33[19X\33"..., 39) = 39
+124589 write(1, "\33(B\33[0;7m^T\33(B\33[m Browse\33[K", 27) = 27
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[28d", 6)         = 6
+124589 write(1, "\33(B\33[0;7mFile Name to Write: ./f"..., 137) = 137
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 read(0, "\r", 1)                 = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=33, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=33, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "/home/ar/Dev/university/sem-3/OS/sem-3-os-lab-1/files/00_test.txt", {st_mode=S_IFREG|0644, st_size=33, ...}, 0) = 0
+124589 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=33, ...}, 0) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 openat(AT_FDCWD, "./files/00_test.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 fcntl(3, F_GETFL)                = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28;53H", 8)        = 8
+124589 write(1, "\33[1K ", 5)           = 5
+124589 write(1, "\33(B\33[0;7m[ Writing... ]\33(B\33[m\33[K", 32) = 32
+124589 fsync(3)                         = 0
+124589 close(3)                         = 0
+124589 newfstatat(AT_FDCWD, "./files/00_test.txt", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[1;74H", 7)         = 7
+124589 write(1, "\33(B\33[0;7m \33[119G", 16) = 16
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28;52H", 8)        = 8
+124589 write(1, "\33(B\33[0;7m[ Wrote 0 line", 23) = 23
+124589 write(1, "s ]", 3)               = 3
+124589 write(1, "\33(B\33[m", 6)        = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[29;16H", 8)        = 8
+124589 write(1, "\33(B\33[0;7m^O\33(B\33[m Write Out   \33("..., 89) = 89
+124589 write(1, "\33(B\33[0;7m^T\33(B\33[m Execute     \33("..., 61) = 61
+124589 write(1, "\33(B\33[0;7mU\33(B\33[m Undo       \33(B\33"..., 62) = 62
+124589 write(1, "\33(B\33[0;7mX\33(B\33[m Exit  \33[16G", 28) = 28
+124589 write(1, "\33(B\33[0;7m^R\33(B\33[m Read File   \33("..., 88) = 88
+124589 write(1, "\33(B\33[0;7m^J\33(B\33[m Justify     \33("..., 90) = 90
+124589 write(1, "\33(B\33[0;7mM-6\33(B\33[m Copy", 23) = 23
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\r\33[2d", 5)          = 5
+124589 read(0, "\30", 1)                = 1
+124589 write(1, "\33[?25l", 6)          = 6
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[28d", 5)           = 5
+124589 poll([{fd=0, events=POLLIN}], 1, 0) = 0 (Timeout)
+124589 write(1, "\33[J\33[30d", 8)      = 8
+124589 write(1, "\33[?12l\33[?25h", 12) = 12
+124589 write(1, "\33[30;1H\33[?1049l\33[23;0;0t\r\33[?1l\33>", 32) = 32
+124589 ioctl(1, TCGETS, {c_iflag=, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|, c_cflag=B38400|CS8|CREAD, c_lflag=ECHOE|ECHOK|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCSETSW, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 write(1, "\33[?2004l", 8)        = 8
+124589 ioctl(0, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCSETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 ioctl(0, TCGETS, {c_iflag=ICRNL|IXON, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+124589 +++ exited with 0 +++

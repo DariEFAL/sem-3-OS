@@ -1,0 +1,3 @@
+125442 execve("/usr/bin/nano", ["nano", "./files/00_test.txt"], 0x7ffc7a62b2b0 /* 31 vars */) = 0
+125442 exit_group(0)                    = ?
+125442 +++ exited with 0 +++
