@@ -24,6 +24,11 @@ make
 cd ..
 ./build/parent
 
-//тестовый файл
-test.txt
+#тестовые файлы
+./tests/goodTest.txt
+./tests/byzeroTest.txt
+./tests/badTest.txt
+
+#Вывод strace (-f : отслеживать дочерние процессы)
+strace -f ./build/parent
 ```
