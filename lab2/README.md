@@ -25,7 +25,7 @@ cd ..
 ./build/parent
 
 #тестовые файлы
-./tests/goodTest.txt
+    ./tests/goodTest.txt
 ./tests/byzeroTest.txt
 ./tests/badTest.txt
 
