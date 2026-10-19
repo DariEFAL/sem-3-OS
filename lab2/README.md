@@ -25,9 +25,10 @@ cd ..
 ./build/parent
 
 #тестовые файлы
-    ./tests/goodTest.txt
+./tests/goodTest.txt
 ./tests/byzeroTest.txt
 ./tests/badTest.txt
+./tests/byinfTest.txt
 
 #Вывод strace (-f : отслеживать дочерние процессы)
 strace -f ./build/parent
