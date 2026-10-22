@@ -1,4 +1,7 @@
 #include "struct.h"
+#include <math.h>
+
+#define SEED 42
 
 int main(int argc, char *argv[]) {
     //считываем максимальное кол-во потоков, и путь к файлу с матрицей и размером
@@ -7,9 +10,14 @@ int main(int argc, char *argv[]) {
     const char *path = NULL;
 
     for (int i = 1; i < argc; i++) {
-        if (argc == 2 && strcmp(argv[1], "--benchSingle") == 0) {
-            srand(42); 
-            run_benchmark();
+        if (strcmp(argv[i], "--benchSingleT") == 0) {
+            srand(SEED); 
+            run_benchmark_single_t();
+            return 0;
+        }
+        else if (strcmp(argv[i], "--benchParallel") == 0) {
+            srand(SEED); 
+            run_benchmark_parallel(12);
             return 0;
         }
         else if (strcmp(argv[i], "--threads") == 0) {
@@ -53,5 +61,23 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    
+    int err = 0;
+    double det = det_parallel(n, matrix, max_threads, &err);
+    if (err != 0) {
+        fprintf(stderr, "det_parallel failed: %d\n", err);
+        free_matrix(matrix, n);
+        return 1;
+    }
+
+    printf("n = %zu, M = %zu\n", n, max_threads);
+    printf("det = %.10f\n", det);
+
+    double det_seq = 0;
+    int rc_seq = det_single_threaded(n, matrix, &det_seq);
+    if (rc_seq == 0) {
+        printf("det_single = %.10f, diff = %.2e\n", det_seq, fabs(det - det_seq));
+    }
+
+    free_matrix(matrix, n);
+    return 0;
 }

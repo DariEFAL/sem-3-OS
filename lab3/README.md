@@ -17,48 +17,52 @@
 ./prog --threads n --matrix file_path
 * паралелизм только на верхнем уровне
 
-
 ```bash
+cd lab3
+
 # запуск бенчмарк без оптимизации
 mkdir -p build
 cd build
 cmake ..
 cmake --build .
 cd ..
-./build/program  --bench | tee ../bench.txt
-```
+./build/program --benchParallel
 
-```bash
-#бенчмарк с оптимизацией
-# 1. Папка для -O2
+# бенчмарк с оптимизацией, буду использовать для сравнения решений с потоками и без
 mkdir -p build_O2
 cd build_O2
 # 2. Конфигурировать с -O2
 cmake -DCMAKE_C_FLAGS="-O2" ..
-# 3. Собрать
-cmake --build .
-# 4. Запустить, сохранить
-./program --bench | tee ../bench_O2.txt
-# 5. Вернуться
-cd ..
-```
-
-```
-cd lab3
-mkdir -p build
-cd build
-cmake ..
 cmake --build .
 cd ..
-./build/program  --bench | tee ../bench.txt
 
-./build/program --matrix ./tests/matrix3.txt
+./build_O2/program --benchSingleT | tee ./report/benchmark_single_threaded.txt
+
+./build_O2/program --benchParallel | tee ./report/benchmark_parallel.txt
+
+./build_O2/program --threads 4 --matrix ./tests/matrix3.txt
 
 #тестовые файлы
-./tests/matrix1.txt // 120
-./tests/matrix2.txt //-3
-./tests/matrix3.txt //160
+./tests/matrix1.txt # 120
+./tests/matrix2.txt # -3
+./tests/matrix3.txt 
 
 #Вывод strace (-f : отслеживать дочерние процессы)
 strace -f ./build/parent
+```
+
+```bash
+nproc #кол-во ядер
+#получаем PID
+ps -ef | grep ./build_O2/program 
+#убить процесс
+kill -9 PID
+
+ps -o nlwp _ #PID
+nlwp означает Number of Light Weight Processes, то есть количество потоков. Вы также можете использовать thcount, эффект будет таким же:
+
+ps -o thcount _ #PID
+
+# каждый поток отдельно (а не только количество)
+ps -T -p 12345
 ```

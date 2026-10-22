@@ -58,6 +58,6 @@ build/
 build_O2/
 build_O0/
 
-bench_O0_single_threaded.txt
-bench_O2_single_threaded.txt
-bench_single_threaded.txt
+benchmark_parallel.txt
+benchmark_single_threaded.txt
+bench.txt
